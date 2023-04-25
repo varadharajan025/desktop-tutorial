@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin:0px;
+}
+.total{
+    height:100vh;
+}
+.kripton{
+   
+    top:0;
+    left:0;  
+    width:345px;
+    position:fixed;
+   
+}
+.navbar{
+    height:120px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid 
+    #D8B9C3;
+    
+}
+.mainlogo{
+    margin-right: 16px;
+}
+.navbar1{
+    height:calc(100vh - 120px);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 9px;
+    border: 1px solid 
+    #D8B9C3;
+}
+.heads{
+    font-weight: 700;
+font-size: 28px;
+line-height: 42px;
+color: #363062;
+font-family: poppins;
+
+
+}
+
+.header{
+  
+    right:0;
+    top:0;
+    height:120px;
+    width: calc(100% - 347px);  
+    position:fixed;
+    border:1px solid 
+    #D8B9C3;
+}
+.font{
+    list-style-type: none;
+    font-size: 16px;
+line-height: 24px;
+color: #969BA0;
+font-family: poppins;
+border: 1px solid white;
+}
+.lists{
+    padding: 22px;
+  margin-top: 8px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.lv{
+    margin-bottom: 0px;
+}
+.lists:hover{
+    background-color: #EEEEEE;
+    color: #363062;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sechead{
+    padding-left: 50px;
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 14px;
+color:  #000000;
+}
+.separate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+   
+}
+.pic{
+ 
+    border: 1px solid #D8B9C3;
+    height: 56px;
+    width: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 14px;
+
+   
+}
+.size{
+    margin-right: 24px;
+    
+    
+}
+.small{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #D8B9C3;
+border: 4px solid #FFFFFF;
+border-radius: 100%;
+top: 0px;
+right: 0px;
+top: -10px;
+right: -10px;
+}
+.card1{
+    border: 1px solid black;
+    width: 310px;
+    height: 180px;
+    background:linear-gradient(to right,rgb(78, 23, 231),rgb(252, 19, 232) );
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+margin-right: 39px;
+margin-left: 51px;
+}
+.totalcard{
+    margin: 0px;
+    position: absolute;
+    width: calc(100% - 345px);
+   top: 246px;
+   left: 345px;
+   display: flex;
+ 
+  
+}
+.wallettype{
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: rgba(255, 255, 255, 0.6);
+margin-left: 25px;
+margin-top: 34px;
+margin-bottom: 0px;
+}
+.amount{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+margin-left: 25px;
+margin-bottom: 35px;
+}
+.accno{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.2em;
+color: #FFEF60;
+margin-left: 28px;
+}
+.flexcard{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 87px;
+    margin-right: 26px;
+}
+.card2{
+    border: 1px solid black;
+    width: 310px;
+    height: 180px;
+    background:linear-gradient(to right,rgb(7, 224, 7),rgb(4, 136, 224) );
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+margin-right: 39px;
+}
+.card3{
+    border: 1px solid black;
+    width: 310px;
+    height: 180px;
+    background:linear-gradient(to right,rgb(188, 218, 22),rgb(238, 5, 5) );
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+margin-right: 39px;
+}
+.card4{
+    border: 1px solid black;
+    width: 310px;
+    height: 180px;
+    background:linear-gradient(to right,rgb(228, 158, 6),rgb(6, 78, 233) );
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+}
+.addwallet{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 122px;
+   right: 0px;
+   width: 207px;
+height: 68px;
+background: #363062;
+border-radius: 71px;
+margin-top: 31px;
+   
+}
+.addwalletword{
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.tablewidth{
+    width: 100%;
+    table-layout: fixed;
+}
+.tablewidth th{
+    padding: 16px;
+    font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+text-align: left;
+}
+.tablewidth td{
+    padding: 16px;
+    padding-bottom: 23px;
+    padding-top: 23px;
+    text-align: left;
+    font-size: 14px;
+line-height: 17px;
+/* color: #000000; */
+text-align: left;
+}
+.separateimage{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.roundeddelivered{
+
+    border: 1px solid #EBF9F1 ;
+    background:#EBF9F1;
+    border-radius: 22px;
+    width: 59px;
+height: 0.1px;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    color: #1F9254;
+}
+.textcolor1{
+    color:  #CD6200;
+    background-color: #FEF2E5;
+}
+
+
+.totaaltablecontainers{
+    position: absolute;
+    top: 480px;
+    left: 390px;
+    width: 1300px;
+    height: 400px;
+    overflow-y: auto;
+    
+}
